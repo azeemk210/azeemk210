@@ -15,7 +15,7 @@ My background combines **remote sensing, deep learning, and full-stack developme
 
 ### 🤝 Connect With Me  
 <p align="left">
-  <a href="https://www.linkedin.com/in/your-linkedin-username/" target="_blank">
+  <a href="https://www.linkedin.com/in/azeem-khan210/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:khan.azeemak@gmail.com" target="_blank">

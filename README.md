@@ -12,6 +12,16 @@ Machine Learning Engineer with hands-on experience building **end-to-end ML syst
 - Containerizing ML applications with Docker
 - Working with geospatial and Earth Observation data at scale
 
+### Currently working on
+
+**Strukturdaten Portal** — a full-stack geospatial platform for E-Control Austria,
+the federal electricity & gas regulator. Single source of truth for grid operator
+concession boundaries across Austria. Polygon drawing with snap-to-existing-boundary,
+server-side auto-clip conflict resolution in PostGIS, and audit-logged cross-
+organization visibility. Shipping mid-2026.
+
+Stack: Next.js 16 · FastAPI · PostGIS · MapLibre GL JS · terra-draw · Tailwind v4 · Docker · Nginx
+
 ---
 
 ## Featured Projects

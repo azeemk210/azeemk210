@@ -16,9 +16,9 @@ My real interest is the moment raw spatial data — aerial imagery, satellite da
 
 ## Currently Working On
 
-**TopView — Province-Scale Rooftop PV & Rooftop Detection** *(iSpace Plus, Salzburg)*
+**Solar PV & Rooftop Detection / Segmentation (TopView)** *(Geospatial Solution Architect & ML Engineer, iSpace Plus, Salzburg)*
 
-End-to-end computer vision pipeline for detecting and segmenting rooftop solar PV installations, building rooftop segments, from high-resolution aerial GeoTIFF imagery across Austrian cities.
+End-to-end computer vision pipeline detecting and segmenting rooftop solar PV installations and building footprints from high-resolution aerial GeoTIFF imagery across Austrian cities.
 
 - Trained and benchmarked **Mask R-CNN (MMDetection)** and **YOLOv8 / YOLO11-seg (Ultralytics)** across 12+ MLflow-tracked experiments on a custom LabelMe-annotated dataset (~3,000 georeferenced tiles at 6 cm GSD)
 - Engineered a georeferenced inference pipeline: automated GDAL tiling → model inference → affine-transform-correct mask vectorization → GeoPackage export, scaled to full-city runs for **Graz, Gleisdorf, and Salzburg**
@@ -29,7 +29,7 @@ End-to-end computer vision pipeline for detecting and segmenting rooftop solar P
 
 ---
 
-**Strukturdaten Portal — Regulatory GIS Platform for E-Control Austria** *(iSpace Plus, Salzburg)*
+**Regulatory GIS Web Portal — E-Control Strukturdaten Portal** *(Geospatial Solution Architect & ML Engineer, iSpace Plus, Salzburg)*
 
 Production web portal enabling Austria's electricity and gas regulator to upload, validate, edit, and conflict-check regulatory GIS polygon datasets across competing grid operators (Netzbetreiber). Sole developer, end to end.
 
@@ -42,7 +42,28 @@ Production web portal enabling Austria's electricity and gas regulator to upload
 
 ---
 
+## Selected Projects
 
+**Province-Scale Solar PV Detection — Austria** *(Research Studios Austria → iSpace Plus, 2022–present)*
+Detected **10,000+ rooftop solar PV systems across ~7,000 km² of Salzburg province** at ~88% accuracy using instance segmentation on 6 cm GSD aerial imagery. Originated as Mask R-CNN research at Research Studios Austria (2022–24), scaled with YOLO benchmarking and multi-city deployment at iSpace Plus (2025–present). Pipeline produces georeferenced GeoPackage vectors ready for cadastre and GIS integration. AGIT 2026 paper.
+
+**Satellite Imagery Pipeline** *(Application Engineer, EOG GmbH, Vienna · 2024–2025)*
+Python backend services for automated large-volume retrieval and processing of Sentinel and MODIS satellite imagery, integrated with the Sentinel Hub API (OAuth2). Optimized TIFF/HDF5 storage pipelines serving both interactive visualization and downstream ML inference. Applied deep-learning super-resolution to enhance imagery usability.
+
+---
+
+## Education
+
+**MSc, Geospatial Engineering** — Technical University of Munich *(2020–2023)*
+**BTech, Civil Engineering** — Aligarh Muslim University, India *(2015–2019)*
+
+---
+
+## Publications
+
+**AGIT 2026** — Co-author, peer-reviewed conference paper on instance segmentation methodology for rooftop solar PV detection from high-resolution aerial imagery.
+
+---
 
 ## Technical Skills
 
@@ -61,36 +82,12 @@ Production web portal enabling Austria's electricity and gas regulator to upload
 
 ---
 
-## Selected Projects
-
-**Province-Scale Solar PV Detection — Austria**
-Detected **10,000+ rooftop solar PV systems across ~7,000 km² of Salzburg province** at ~88% accuracy using instance segmentation on 6 cm GSD aerial imagery. Pipeline scales from raw GeoTIFF to georeferenced GeoPackage vectors ready for cadastre and GIS integration. Multi-city deployment across Graz, Gleisdorf, and Salzburg. AGIT 2026 paper.
-
-**Satellite Imagery Pipeline — EOG GmbH**
-Python backend services for automated large-volume retrieval and processing of Sentinel and MODIS satellite imagery, integrated with the Sentinel Hub API (OAuth2). Optimized TIFF/HDF5 storage pipelines serving both interactive visualization and downstream ML inference. Applied deep-learning super-resolution to enhance imagery usability.
-
----
-
-## Education
-
-**MSc, Geospatial Engineering** — Technical University of Munich *(2020–2023)*
-**BTech, Civil Engineering** — Aligarh Muslim University, India *(2015–2019)*
-
----
-
-## Publications
-
-**AGIT 2026** — Co-author, peer-reviewed conference paper on instance segmentation methodology for rooftop solar PV detection from high-resolution aerial imagery.
-
----
-
 ## Connect
 
-## Links
-- GitHub: https://github.com/azeemk210
-- LinkedIn: https://www.linkedin.com/in/azeem-khan210/
-- Email: khan.azeemak@gmail.com
+- **LinkedIn:** [linkedin.com/in/azeem-khan210](https://www.linkedin.com/in/azeem-khan210/)
+- **GitHub:** [github.com/azeemk210](https://github.com/azeemk210)
+- **Email:** khan.azeemak@gmail.com
 
 ---
 
-*Austria ·
+*Austria*

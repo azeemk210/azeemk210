@@ -16,16 +16,16 @@ My real interest is the moment raw spatial data — aerial imagery, satellite da
 
 ## Currently Working On
 
-**TopView — Province-Scale Rooftop PV & Building Detection** *(iSpace Plus, Salzburg)*
+**TopView — Province-Scale Rooftop PV & Rooftop Detection** *(iSpace Plus, Salzburg)*
 
-End-to-end computer vision pipeline for detecting and segmenting rooftop solar PV installations, building footprints, and outdoor AC units from high-resolution aerial GeoTIFF imagery across Austrian cities.
+End-to-end computer vision pipeline for detecting and segmenting rooftop solar PV installations, building rooftop segments, from high-resolution aerial GeoTIFF imagery across Austrian cities.
 
 - Trained and benchmarked **Mask R-CNN (MMDetection)** and **YOLOv8 / YOLO11-seg (Ultralytics)** across 12+ MLflow-tracked experiments on a custom LabelMe-annotated dataset (~3,000 georeferenced tiles at 6 cm GSD)
 - Engineered a georeferenced inference pipeline: automated GDAL tiling → model inference → affine-transform-correct mask vectorization → GeoPackage export, scaled to full-city runs for **Graz, Gleisdorf, and Salzburg**
 - Published detected layers as QGIS / Lizmap map services for stakeholder review
 - Co-authored a peer-reviewed conference paper on the segmentation methodology — **AGIT 2026**
 
-`Python · PyTorch · MMDetection · Ultralytics · GDAL · rasterio · OpenCV · MLflow · QGIS · Lizmap · EPSG:31255/31256`
+`Python · PyTorch · MMDetection · Ultralytics · GDAL · rasterio · OpenCV · MLflow · QGIS · Lizmap`
 
 ---
 

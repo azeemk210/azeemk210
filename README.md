@@ -70,14 +70,14 @@ Python backend services for automated large-volume retrieval and processing of S
 | Area | Tools & Technologies |
 |------|---------------------|
 | **Languages** | Python, TypeScript, JavaScript, SQL |
-| **Frontend** | React 19, Next.js 16, MapLibre GL JS (WebGL), terra-draw, Tailwind CSS |
+| **Frontend** | React, Next.js, MapLibre GL JS (WebGL), terra-draw, Tailwind CSS |
 | **Backend** | FastAPI, SQLAlchemy, GeoAlchemy2, REST APIs, JWT, OAuth2 |
 | **Geospatial** | PostGIS, GDAL, rasterio, QGIS, Lizmap, ArcGIS Pro, Leaflet, OpenLayers |
-| **Computer Vision** | PyTorch, Mask R-CNN (MMDetection), YOLOv8/YOLO11-seg (Ultralytics), Instance Segmentation |
+| **Computer Vision** | PyTorch, Mask R-CNN (MMDetection), YOLO (Ultralytics), Instance Segmentation |
 | **MLOps** | MLflow, experiment tracking, annotation pipelines (LabelMe), model benchmarking |
 | **Infrastructure** | Docker, Nginx, Git, CI/CD (GitHub Actions, Gitea), Linux, Cloudflare Tunnel |
 | **Data Formats** | GeoTIFF, GeoPackage, GeoJSON, Shapefile, HDF5, LAS/LAZ |
-| **Remote Sensing** | Sentinel-1/2, MODIS, aerial orthophotos, EPSG:31255/31256, WGS84 |
+| **Remote Sensing** | Sentinel-1/2, MODIS, aerial orthophotos |
 | **AI-Native** | Claude Code CLI, GitHub Copilot, Agentic IDE workflows |
 
 ---
